@@ -1,0 +1,32 @@
+*{
+	background-color: #22223b;
+}
+h1{
+	margin-top: 0px;
+}
+.main-div{
+	text-align: center;
+	margin-top: 150px;
+	color: white;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	background-color: #00a6fb;
+}
+button{
+	font-size: large;
+	background-color: #00a6fb;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	margin-right: 5px;
+}
+button:hover{
+	box-shadow: 0 0 10px -1px #00a6fb;
+}
+p{
+	margin-top: -10px;
+	margin-bottom: -10px;
+}

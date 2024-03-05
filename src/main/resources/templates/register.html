@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Register</title>
+		<link rel='stylesheet' href='register.css'/>
+	</head>
+<body>
+	<fieldset class='main-div'>
+		<h1>Register</h1>
+		<form action="register" method="post">
+			<input type="text" name="username" class="input-text" placeholder="username" required="required">
+			<br><br>
+			
+			<input type="text" name="email" class="input-text" placeholder="email" required="required">
+			<br><br>
+			
+			<input type="password" name="password" class="input-text" placeholder="password" required="required">
+			<br><br>
+			<label>Gender:</label>
+			
+			Male<input type="radio" name="gender" value="Male">
+			Female<input type="radio" name="gender" value="Female">
+			Other<input type="radio" name="gender" value="Other">
+			<br><br>
+			<label>Role:</label>
+			Admin<input type="radio" name="role" value="admin" required="required">
+			
+			Customer<input type="radio" name="role" value="customer">
+			<br><br>
+			<label>Address</label>
+			<br>
+			<textarea name="address" placeholder="address" required="required"></textarea>
+			<br><br>
+			<input type="submit" value="register" id='button'>
+			<br>
+			<p>Already have an account? <a href='map-login' style='color: #00a6fb'>Login</a>
+		</form>
+	</fieldset>
+</body>
+</html>

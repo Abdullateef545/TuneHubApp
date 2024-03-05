@@ -1,0 +1,49 @@
+body{
+	text-align: center;
+	background-color: #22223b;
+}
+.main-div{
+	text-align: left;
+	
+	display: inline-block;
+	margin-top: 100px;
+	padding: 0px 20px;
+	font-size: larger;
+	padding-bottom: 20px;
+	color: black;
+	background-color: #d8572a;
+	width: 350px;
+	border-radius: 7px;
+	
+}
+form{
+	padding-left: 25px;
+	padding-right: 20px;
+}
+h1{
+	display: inline-block;
+	margin-left: 80px;
+}
+.input-text{
+	background-color: #d8572a;
+	border: none;
+	border-bottom: 2px black solid;
+	color: white;
+	width: 280px;
+	font-size: large;
+}
+input:focus {
+    outline: none;
+}
+#button{
+	color: white;
+	margin-left:90px;
+	font-size: large;
+	background-color: #22223b;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+}
+#button:hover{
+	box-shadow: 0 0 20px -10px black;
+}

@@ -1,0 +1,56 @@
+body{
+	background-image: url("mike.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    text-align: right;
+    margin: 0; /* Reset default body margin */
+    padding: 0; /* Reset default body padding */
+    height: 100vh;
+}
+.main-div{
+	margin-right: 200px;
+	display: inline-block;	
+	margin-top: 150px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	width: 300px;
+	border: none;
+	background-color: #22223b;
+	font-size: large;
+	border-radius: 5px;
+	color: white;
+}
+h1{
+	display: inline-block;
+	margin-left: 80px;
+}
+#button{
+	margin-left:100px;
+	font-size: large;
+	background-color: #00a6fb;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+}
+#button:hover{
+	box-shadow: 0 0 20px -5px #00a6fb;
+}
+.input-text{
+	background-color: #22223b;
+	border: none;
+	border-bottom: 2px #d2d4c8 solid;
+	
+	color: white;
+	width: 280px;
+	font-size: large;
+}
+input:focus {
+    outline: none;
+}
+::placeholder{
+	color: white;
+}

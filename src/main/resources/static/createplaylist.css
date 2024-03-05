@@ -1,0 +1,45 @@
+body{
+	text-align: center;
+	background-color: #22223b;
+	
+}
+.main-div{
+	background-color: #d8572a;
+	display: inline-block;
+	margin-top: 100px;
+	padding-left: 30px;
+	text-align: left;
+	width: 260px;
+	font-size: large;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 7px;
+}
+.input-text{
+	
+	background-color: #d8572a;
+	border: none;
+	border-bottom: 2px black solid;
+	color: white;
+	width: 200px;
+	font-size: large;
+}
+input:focus {
+    outline: none;
+}
+#check-box{
+	margin-top: 10px;
+}
+#button{
+	margin-top: 15px;
+	color: white;
+	margin-left:50px;
+	font-size: large;
+	background-color: #22223b;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+}
+#button:hover{
+	box-shadow: 0 0 20px -10px black;
+}
